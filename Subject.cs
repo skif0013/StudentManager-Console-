@@ -18,7 +18,7 @@ namespace StudentManager
             var subjects = new List<string> { "Math", "Physics", "Chemistry", "Biology", "History" };
             var subjectList = new List<Subject>();
 
-            // Заполнение списка subjectList
+            
             for (int i = 0; i < 5; i++)
             {
                 subjectList.Add(new Subject
